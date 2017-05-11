@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BD33531EC4B745004C6F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33521EC4B745004C6F89 /* AppDelegate.swift */; };
+		05BD33551EC4B745004C6F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33541EC4B745004C6F89 /* ViewController.swift */; };
+		05BD33581EC4B745004C6F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BD33561EC4B745004C6F89 /* Main.storyboard */; };
+		05BD335A1EC4B745004C6F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BD33591EC4B745004C6F89 /* Assets.xcassets */; };
+		05BD335D1EC4B745004C6F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BD335B1EC4B745004C6F89 /* LaunchScreen.storyboard */; };
+		05BD33681EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33671EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistTests.swift */; };
+		05BD33731EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD33721EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05BD33641EC4B745004C6F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BD33471EC4B745004C6F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BD334E1EC4B745004C6F89;
+			remoteInfo = "NTA_Bai3 ReadWriteFilePlist";
+		};
+		05BD336F1EC4B745004C6F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BD33471EC4B745004C6F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BD334E1EC4B745004C6F89;
+			remoteInfo = "NTA_Bai3 ReadWriteFilePlist";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BD334F1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NTA_Bai3 ReadWriteFilePlist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD33521EC4B745004C6F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05BD33541EC4B745004C6F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05BD33571EC4B745004C6F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05BD33591EC4B745004C6F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05BD335C1EC4B745004C6F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05BD335E1EC4B745004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD33631EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NTA_Bai3 ReadWriteFilePlistTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD33671EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTA_Bai3_ReadWriteFilePlistTests.swift; sourceTree = "<group>"; };
+		05BD33691EC4B745004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD336E1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NTA_Bai3 ReadWriteFilePlistUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD33721EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTA_Bai3_ReadWriteFilePlistUITests.swift; sourceTree = "<group>"; };
+		05BD33741EC4B745004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BD334C1EC4B745004C6F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD33601EC4B745004C6F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD336B1EC4B745004C6F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BD33461EC4B745004C6F89 = {
+			isa = PBXGroup;
+			children = (
+				05BD33511EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlist */,
+				05BD33661EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistTests */,
+				05BD33711EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistUITests */,
+				05BD33501EC4B745004C6F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05BD33501EC4B745004C6F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BD334F1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlist.app */,
+				05BD33631EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistTests.xctest */,
+				05BD336E1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BD33511EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlist */ = {
+			isa = PBXGroup;
+			children = (
+				05BD33521EC4B745004C6F89 /* AppDelegate.swift */,
+				05BD33541EC4B745004C6F89 /* ViewController.swift */,
+				05BD33561EC4B745004C6F89 /* Main.storyboard */,
+				05BD33591EC4B745004C6F89 /* Assets.xcassets */,
+				05BD335B1EC4B745004C6F89 /* LaunchScreen.storyboard */,
+				05BD335E1EC4B745004C6F89 /* Info.plist */,
+			);
+			path = "NTA_Bai3 ReadWriteFilePlist";
+			sourceTree = "<group>";
+		};
+		05BD33661EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistTests */ = {
+			isa = PBXGroup;
+			children = (
+				05BD33671EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistTests.swift */,
+				05BD33691EC4B745004C6F89 /* Info.plist */,
+			);
+			path = "NTA_Bai3 ReadWriteFilePlistTests";
+			sourceTree = "<group>";
+		};
+		05BD33711EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05BD33721EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistUITests.swift */,
+				05BD33741EC4B745004C6F89 /* Info.plist */,
+			);
+			path = "NTA_Bai3 ReadWriteFilePlistUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05BD334E1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD33771EC4B745004C6F89 /* Build configuration list for PBXNativeTarget "NTA_Bai3 ReadWriteFilePlist" */;
+			buildPhases = (
+				05BD334B1EC4B745004C6F89 /* Sources */,
+				05BD334C1EC4B745004C6F89 /* Frameworks */,
+				05BD334D1EC4B745004C6F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NTA_Bai3 ReadWriteFilePlist";
+			productName = "NTA_Bai3 ReadWriteFilePlist";
+			productReference = 05BD334F1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05BD33621EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD337A1EC4B745004C6F89 /* Build configuration list for PBXNativeTarget "NTA_Bai3 ReadWriteFilePlistTests" */;
+			buildPhases = (
+				05BD335F1EC4B745004C6F89 /* Sources */,
+				05BD33601EC4B745004C6F89 /* Frameworks */,
+				05BD33611EC4B745004C6F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BD33651EC4B745004C6F89 /* PBXTargetDependency */,
+			);
+			name = "NTA_Bai3 ReadWriteFilePlistTests";
+			productName = "NTA_Bai3 ReadWriteFilePlistTests";
+			productReference = 05BD33631EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05BD336D1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD337D1EC4B745004C6F89 /* Build configuration list for PBXNativeTarget "NTA_Bai3 ReadWriteFilePlistUITests" */;
+			buildPhases = (
+				05BD336A1EC4B745004C6F89 /* Sources */,
+				05BD336B1EC4B745004C6F89 /* Frameworks */,
+				05BD336C1EC4B745004C6F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BD33701EC4B745004C6F89 /* PBXTargetDependency */,
+			);
+			name = "NTA_Bai3 ReadWriteFilePlistUITests";
+			productName = "NTA_Bai3 ReadWriteFilePlistUITests";
+			productReference = 05BD336E1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05BD33471EC4B745004C6F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HCMUTE;
+				TargetAttributes = {
+					05BD334E1EC4B745004C6F89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					05BD33621EC4B745004C6F89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05BD334E1EC4B745004C6F89;
+					};
+					05BD336D1EC4B745004C6F89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05BD334E1EC4B745004C6F89;
+					};
+				};
+			};
+			buildConfigurationList = 05BD334A1EC4B745004C6F89 /* Build configuration list for PBXProject "NTA_Bai3 ReadWriteFilePlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05BD33461EC4B745004C6F89;
+			productRefGroup = 05BD33501EC4B745004C6F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05BD334E1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlist */,
+				05BD33621EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistTests */,
+				05BD336D1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BD334D1EC4B745004C6F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD335D1EC4B745004C6F89 /* LaunchScreen.storyboard in Resources */,
+				05BD335A1EC4B745004C6F89 /* Assets.xcassets in Resources */,
+				05BD33581EC4B745004C6F89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD33611EC4B745004C6F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD336C1EC4B745004C6F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05BD334B1EC4B745004C6F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD33551EC4B745004C6F89 /* ViewController.swift in Sources */,
+				05BD33531EC4B745004C6F89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD335F1EC4B745004C6F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD33681EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD336A1EC4B745004C6F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD33731EC4B745004C6F89 /* NTA_Bai3_ReadWriteFilePlistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05BD33651EC4B745004C6F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05BD334E1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlist */;
+			targetProxy = 05BD33641EC4B745004C6F89 /* PBXContainerItemProxy */;
+		};
+		05BD33701EC4B745004C6F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05BD334E1EC4B745004C6F89 /* NTA_Bai3 ReadWriteFilePlist */;
+			targetProxy = 05BD336F1EC4B745004C6F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05BD33561EC4B745004C6F89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BD33571EC4B745004C6F89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05BD335B1EC4B745004C6F89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BD335C1EC4B745004C6F89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05BD33751EC4B745004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05BD33761EC4B745004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05BD33781EC4B745004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NTA_Bai3 ReadWriteFilePlist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai3-ReadWriteFilePlist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05BD33791EC4B745004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NTA_Bai3 ReadWriteFilePlist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai3-ReadWriteFilePlist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		05BD337B1EC4B745004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NTA_Bai3 ReadWriteFilePlistTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai3-ReadWriteFilePlistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTA_Bai3 ReadWriteFilePlist.app/NTA_Bai3 ReadWriteFilePlist";
+			};
+			name = Debug;
+		};
+		05BD337C1EC4B745004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NTA_Bai3 ReadWriteFilePlistTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai3-ReadWriteFilePlistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTA_Bai3 ReadWriteFilePlist.app/NTA_Bai3 ReadWriteFilePlist";
+			};
+			name = Release;
+		};
+		05BD337E1EC4B745004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NTA_Bai3 ReadWriteFilePlistUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai3-ReadWriteFilePlistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NTA_Bai3 ReadWriteFilePlist";
+			};
+			name = Debug;
+		};
+		05BD337F1EC4B745004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NTA_Bai3 ReadWriteFilePlistUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai3-ReadWriteFilePlistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NTA_Bai3 ReadWriteFilePlist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05BD334A1EC4B745004C6F89 /* Build configuration list for PBXProject "NTA_Bai3 ReadWriteFilePlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD33751EC4B745004C6F89 /* Debug */,
+				05BD33761EC4B745004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BD33771EC4B745004C6F89 /* Build configuration list for PBXNativeTarget "NTA_Bai3 ReadWriteFilePlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD33781EC4B745004C6F89 /* Debug */,
+				05BD33791EC4B745004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05BD337A1EC4B745004C6F89 /* Build configuration list for PBXNativeTarget "NTA_Bai3 ReadWriteFilePlistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD337B1EC4B745004C6F89 /* Debug */,
+				05BD337C1EC4B745004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05BD337D1EC4B745004C6F89 /* Build configuration list for PBXNativeTarget "NTA_Bai3 ReadWriteFilePlistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD337E1EC4B745004C6F89 /* Debug */,
+				05BD337F1EC4B745004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05BD33471EC4B745004C6F89 /* Project object */;
+}
